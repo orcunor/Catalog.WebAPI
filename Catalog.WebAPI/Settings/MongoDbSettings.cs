@@ -10,7 +10,7 @@ namespace Catalog.WebAPI.Settings
         public string Host { get; set; }
         public int Port { get; set; }
         public string User { get; set; }
-        public string Password { get; set; } // "Pass@word1"; dotnet user-secrets init   user secrets set MongoDbSettings:Password Pass@word1
+        public string Password { get; set; } // $ dotnet user-secrets init   user secrets set MongoDbSettings:Password yourpassword   for mongodb authentication
 
         public string ConnectionString 
         {
